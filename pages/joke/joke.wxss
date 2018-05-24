@@ -1,0 +1,59 @@
+@import "../../font-icon/iconfont.wxss";
+.content{
+      padding-left: .7143rem;
+      font-size: 1rem;
+      background: #fff;
+      color: #333;
+      font-family: Microsoft Yahei;
+}
+.li{
+      width: 100%;
+      height: 4.0714rem;
+      border-bottom: 1px solid #e5e5e5;
+      display: flex;
+      align-items: center;
+}
+.main{
+      padding-left: 2.0674rem;
+      width: 100%;
+      padding-right: 2.657rem;
+      font-size: 1rem;
+      box-sizing: border-box;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      
+}
+.left{
+      padding: 0 .5rem;
+      height: 1.0714rem;
+      border-radius: .5rem;
+      text-align: center;
+      font-size: .7143rem;
+}
+.right{
+      width: 2.5rem;  
+}
+icon{
+      width: 1.0357rem;
+      height: 1.0814rem;
+      color: #999;
+}
+.one{
+      background: #e80000;
+      color: #fff;
+}
+.two{
+      background: #ff7200;
+      color: #fff;
+}
+.three{
+      background: #f8b300;
+      color: #fff;
+}
+.loadinglist,.loadingover{
+  background-color: #f0f0f0;
+  text-align: center;
+  color: #ccc
+}
+

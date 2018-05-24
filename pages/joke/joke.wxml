@@ -1,0 +1,13 @@
+<view class="content" hidden='{{!flag}}'>
+  <block wx:for="{{data}}">
+    <view class='li'bindtap="getdetail" id="{{index}}">
+      <view class='left {{colors[index]}}'>{{index+1}}</view>
+        <view class='main'>{{item.title}}</view>
+        <view class='right'>
+        <icon class='iconfont icon-gengduo'></icon>
+      </view> 
+   </view>
+  </block>
+</view>
+<view class='loadinglist' hidden='{{!loadinglist}}'>正在加载更多</view>
+<view class='loadingover' hidden='{{!loadingover}}'>已全部加载完成</view>

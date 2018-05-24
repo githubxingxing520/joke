@@ -1,0 +1,5 @@
+<view class='flex-container'>
+  <text class='title'>{{data.title}}</text>
+  <view class='text'>{{data.text}}</view>
+  <text class='time'>{{data.ct}}</text>
+</view>

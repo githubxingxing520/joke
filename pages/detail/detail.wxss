@@ -1,0 +1,24 @@
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+  text-align: justify;
+  margin: 20rpx;
+}
+.title{
+    font-size: 20px;
+   text-align: center;
+   line-height: 100rpx;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+.text{
+  text-indent: 2em;
+  color: #333;
+}
+.time{
+  text-align: right;
+  color: #ccc;
+  margin-top: 10px;
+}

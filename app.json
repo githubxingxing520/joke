@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/joke/joke",
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#428ee5",
+    "navigationBarTextStyle":"white"
+  }
+}

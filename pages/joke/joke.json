@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "笑排行",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#555",
+  "backgroundTextStyle": "dark"
+}
